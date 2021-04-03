@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: blanchedalmond;
+}
+
+header{
+    margin: 1rem;
+}
+
+.board {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.players p{
+    margin: 1rem;
+}
+
+.players p span{
+   color: brown;
+}
+
+
+
+.input-player{
+    font-size: 0.8rem;
+    padding: 5px;
+    margin: 1rem;    
+}
+
+.dashboard {
+    
+    width: 100%;
+    max-width: 300px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-button{
+    background: black;
+    background-color: aqua;
+    width: 33.3%;
+    height: 100px;
+    border:none;
+    outline: none;
+    font-size: 3rem;
+}
+
+.style-button:disabled{
+   color:black;
+}
+
+.right{
+    border-right: 3px white solid;
+    border-bottom: 3px white solid;
+}
+
+.button {
+    border-bottom: 3px white solid;
+}
+
+.left {
+    border-left: 3px white solid;
+    border-bottom: 3px white solid;
+}
+
+.buttonsGame{
+    margin: 0.5rem;
+    padding: 5px;
+}
